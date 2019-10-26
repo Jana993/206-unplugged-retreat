@@ -299,12 +299,6 @@ aside {
   flex-flow: row wrap;
 }
 
-/* my code
-aside .content-wrapper {
-  padding: 30px 20px;
-} */
-
-
 aside .form {
   margin-top: 30px;
 }
@@ -808,7 +802,7 @@ input[type=button] {
 
   aside .content-wrapper .form-description,
   aside .content-wrapper .form {
-    width:30%;
+    width:40%;
   }
 
   .form-description p {
