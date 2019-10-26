@@ -120,6 +120,12 @@ a {
   text-decoration: none;
 }
 
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 2.25em;
+}
+
 h2 {
    font-family: 'Poppins', sans-serif;
    font-weight: 500;
@@ -176,6 +182,7 @@ header .content-wrapper {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  width:100%;
   margin: 0;
 }
 
@@ -203,12 +210,15 @@ header nav {
   font-size: 1.125em;
   font-weight: 700;
   text-transform: uppercase;
+
 }
 
 header nav ul {
   display: flex;
   justify-content: space-around;
-  width: 100%
+  width: 100%;
+  padding-left: 0;
+  margin: 0;
 }
 
 header nav ul li {
@@ -263,6 +273,8 @@ footer .copyright {
   flex-flow: row wrap;
 }
 
+
+
 .hero-area h1 {
   font-size: 2.25em;
 }
@@ -291,8 +303,9 @@ aside .form {
 input[type=text] {
   box-sizing: border-box;
   width: 100%;
-  color: #2a423a;
+  color: #e2e3ed;
   font-style: italic;
+  padding: 20px 0;
 }
 
 input[type=button] {
@@ -407,7 +420,13 @@ input[type=button] {
 
 .faq h2 {
   margin-bottom: 40px;
-  line-height: 1;
+  line-height: 1em;
+  font-weight: 500;
+}
+
+.faq p {
+  font-size: 0.875em;
+  line-height: 1.286em;
 }
 
 .faq-content {
@@ -415,6 +434,7 @@ input[type=button] {
 }
 
 .faq-content h4 {
+  font-size: 1.125em;
   line-height: 1.333;
   font-weight: 700;
 }
@@ -625,7 +645,7 @@ input[type=button] {
 /* footer */
   footer .content-wrapper {
     width: 65%;
-    margin: 100px 0;
+    margin: 80px 0;
   }
 
   footer .footer-content {
@@ -719,8 +739,12 @@ input[type=button] {
 
 /* hero area */
   .hero-area h1 {
-    width: 60%;
+    width: 70%;
     font-size: 3.75em;
+  }
+
+  .hero-area .content-wrapper {
+    margin-top: 50px;
   }
 
 /* aside */
@@ -740,6 +764,7 @@ input[type=button] {
 /* features */
   .features h2 {
     width: 70%;
+    margin-bottom: 80px;
   }
 
   .features article {
@@ -749,6 +774,10 @@ input[type=button] {
 /* Reviews */
   .reviews article div {
     width: 42%;
+  }
+
+  .reviews h2 {
+    margin-top: 0;
   }
 
 /* =============== About ================== */
